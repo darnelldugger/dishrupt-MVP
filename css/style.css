@@ -69,6 +69,10 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+article {
+  padding: 3em 0 3em 0;
+}
 .brand {
   grid-row: span 2;
   height: 1vh;
@@ -105,4 +109,29 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+h1 {
+  color: #dc3c4d;
+}
+
+.powered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* justify-content: space-between; */
+  padding-top: 1rem;
+  
+}
+
+#powered-h2 {
+background-color: whitesmoke;
+  color: #dc3c4d;
+  padding-left: 1rem;
+  margin: 1rem 0 rem 0;
+}
+
+#powered-p {
+  /* background-color: aqua; */
+  padding: 1rem 0 0 0;
 }
