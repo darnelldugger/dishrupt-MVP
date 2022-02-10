@@ -45,6 +45,8 @@ header {
 
 #headPic {
   border-radius: 50%;
+  border-color: #dc3c4d;
+  border-style: solid;
 }
 
 
