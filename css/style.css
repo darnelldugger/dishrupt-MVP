@@ -37,6 +37,10 @@ header {
 }
 main {
   background-color: aqua;
+  display:grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-content: center;
 }
 nav {
   grid-row: span 2;
@@ -46,13 +50,12 @@ nav {
 
 
 .card-group{
-  display: flex;
-  align-items: center;
-  
-
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
-/* .r1d1 {
+.r1dr {
   display: flex;
   flex-direction: row;
-} */
+  justify-content: flex-start;
+}
