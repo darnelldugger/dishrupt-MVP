@@ -47,10 +47,7 @@ header {
   border-radius: 50%;
 }
 
-.accordian-item{
-  background-color: whitesmoke;
-  width: 60%;
-}
+
 .accordion-button {
   background-color: whitesmoke;
   font-size: 13px;
@@ -63,7 +60,6 @@ justify-content: center;
 align-items: center;
 background-color: whitesmoke;
 }
-
 
 
 main {
