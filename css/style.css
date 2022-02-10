@@ -26,29 +26,45 @@ body {
   display: grid; 
   /* /* align-items: center; */
   min-height: 100vh;
-  
   grid-template-rows: auto 0fr auto;
 }
 
-header {
+nav {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+}
+
+header {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   justify-content: center;
   align-items: center;
+  
 }
 
 #headPic {
   border-radius: 50%;
 }
 
-.resName {
-  padding-left: 3rem;
+.accordian-item{
+  background-color: whitesmoke;
+  width: 60%;
+}
+.accordion-button {
+  background-color: whitesmoke;
+  font-size: 13px;
+  font-weight: bold;
 }
 
-.resInfo{
-  border: none;
-  padding:;
+.accordian-button-body {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: whitesmoke;
 }
+
+
 
 main {
 
