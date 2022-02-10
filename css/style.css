@@ -29,6 +29,7 @@ body {
   
   grid-template-rows: auto 0fr auto;
 }
+
 header {
   display: flex;
   flex-direction: row;
@@ -43,6 +44,12 @@ header {
 .resName {
   padding-left: 3rem;
 }
+
+.resInfo{
+  border: none;
+  padding:;
+}
+
 main {
 
   display:grid;
@@ -52,7 +59,13 @@ main {
 }
 .brand {
   grid-row: span 2;
-  height: 5vh;
+  height: 1vh;
+}
+
+.tablist{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-link {
